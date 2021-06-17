@@ -16,7 +16,7 @@ describe('<TextComponent />', () => {
       }
 
       .c0 p {
-        margin: 4.0rem 0;
+        margin: 2.4rem 0;
       }
 
       .c0 a,
@@ -34,14 +34,28 @@ describe('<TextComponent />', () => {
         filter: brightness(50%);
       }
 
+      .c0 code {
+        font-family: monospace;
+        color: #dc143c;
+        font-size: 1.6rem;
+        background: #DDDDDD;
+        padding: 0.2rem;
+        margin: 0.2rem;
+      }
+
       .c0 pre {
         background: #000000;
         padding: 2.4rem;
         font-family: monospace;
         color: #FFFFFF;
-        margin: 4.0rem 0;
+        margin: 2.4rem 0;
         width: 100%;
         overflow-x: auto;
+      }
+
+      .c0 pre code {
+        color: inherit;
+        background: inherit;
       }
 
       .c0 img {
@@ -51,7 +65,7 @@ describe('<TextComponent />', () => {
       .c0 .image {
         background: #DDDDDD;
         line-height: 0;
-        margin: 4.0rem 0;
+        margin: 2.4rem 0;
       }
 
       .c0 .image figcaption {
@@ -64,7 +78,7 @@ describe('<TextComponent />', () => {
       .c0 .image-style-side {
         max-width: 50%;
         float: right;
-        margin: 2.4rem;
+        margin: 2.4rem 0;
       }
 
       .c0 hr {
@@ -74,7 +88,7 @@ describe('<TextComponent />', () => {
 
       .c0 ul,
       .c0 ol {
-        margin: 4.0rem;
+        margin: 2.4rem 4.0rem;
       }
 
       .c0 .table {
@@ -86,12 +100,23 @@ describe('<TextComponent />', () => {
       .c0 table {
         width: 100%;
         border-collapse: collapse;
+        margin: 2.4rem 0;
       }
 
       .c0 table td,
       .c0 table th {
         padding: 1.6rem;
         border: 0.1rem solid #DDDDDD;
+      }
+
+      .c0 blockquote {
+        border-left: 0.5rem solid #dc143c;
+        color: #BBBBBB;
+        -webkit-filter: brightness(80%);
+        filter: brightness(80%);
+        padding-left: 2.4rem;
+        font-style: italic;
+        margin: 2.4rem;
       }
 
       @media (max-width:768px) {

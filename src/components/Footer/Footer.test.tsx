@@ -23,7 +23,7 @@ describe('<Footer />', () => {
       }
 
       .c1 p {
-        margin: 4.0rem 0;
+        margin: 2.4rem 0;
       }
 
       .c1 a,
@@ -41,14 +41,28 @@ describe('<Footer />', () => {
         filter: brightness(50%);
       }
 
+      .c1 code {
+        font-family: monospace;
+        color: #dc143c;
+        font-size: 1.6rem;
+        background: #DDDDDD;
+        padding: 0.2rem;
+        margin: 0.2rem;
+      }
+
       .c1 pre {
         background: #000000;
         padding: 2.4rem;
         font-family: monospace;
         color: #FFFFFF;
-        margin: 4.0rem 0;
+        margin: 2.4rem 0;
         width: 100%;
         overflow-x: auto;
+      }
+
+      .c1 pre code {
+        color: inherit;
+        background: inherit;
       }
 
       .c1 img {
@@ -58,7 +72,7 @@ describe('<Footer />', () => {
       .c1 .image {
         background: #DDDDDD;
         line-height: 0;
-        margin: 4.0rem 0;
+        margin: 2.4rem 0;
       }
 
       .c1 .image figcaption {
@@ -71,7 +85,7 @@ describe('<Footer />', () => {
       .c1 .image-style-side {
         max-width: 50%;
         float: right;
-        margin: 2.4rem;
+        margin: 2.4rem 0;
       }
 
       .c1 hr {
@@ -81,7 +95,7 @@ describe('<Footer />', () => {
 
       .c1 ul,
       .c1 ol {
-        margin: 4.0rem;
+        margin: 2.4rem 4.0rem;
       }
 
       .c1 .table {
@@ -93,12 +107,23 @@ describe('<Footer />', () => {
       .c1 table {
         width: 100%;
         border-collapse: collapse;
+        margin: 2.4rem 0;
       }
 
       .c1 table td,
       .c1 table th {
         padding: 1.6rem;
         border: 0.1rem solid #DDDDDD;
+      }
+
+      .c1 blockquote {
+        border-left: 0.5rem solid #dc143c;
+        color: #BBBBBB;
+        -webkit-filter: brightness(80%);
+        filter: brightness(80%);
+        padding-left: 2.4rem;
+        font-style: italic;
+        margin: 2.4rem;
       }
 
       @media (max-width:768px) {
