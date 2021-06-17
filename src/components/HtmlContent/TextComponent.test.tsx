@@ -12,7 +12,7 @@ describe('<TextComponent />', () => {
     const { container } = renderTheme(<HtmlContent html={'<b>Children</b>'} />);
     expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
-        font-size: 2.4rem;
+        font-size: 2.4rem - 0.4rem;
       }
 
       .c0 p {
