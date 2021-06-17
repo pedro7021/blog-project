@@ -1,5 +1,3 @@
-import { ArticleHeaderProps } from '.';
-
 export default {
   title: 'Quod oblique mei ne, cetero delicatissimi sea',
   excerpt:
