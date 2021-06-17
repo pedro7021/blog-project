@@ -2,7 +2,7 @@ import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
 import { ArticleMeta, ArticleMetaProps } from '.';
 
-import mock from './mock';
+import mock from './mocks';
 
 const props: ArticleMetaProps = mock;
 
@@ -11,10 +11,10 @@ describe('<ArticleMeta />', () => {
     renderTheme(<ArticleMeta {...props} />);
 
     expect(
-      screen.getByRole('link', { name: mock.author.displayName }),
-    ).toHaveAttribute('href', `/author/${mock.author.slug}`);
+      screen.getByRole('link', { name: props.author.displayName }),
+    ).toHaveAttribute('href', `/author/${props.author.slug}`);
 
-    mock.categories.forEach((category) =>
+    props.categories.forEach((category) =>
       expect(
         screen.getByRole('link', { name: category.displayName }),
       ).toHaveAttribute('href', `/category/${category.slug}`),
