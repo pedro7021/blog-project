@@ -10,8 +10,12 @@ export type PostProps = {
 export const Post = ({ header, content }: PostProps) => {
   return (
     <Styled.Wrapper>
-      <ArticleHeader {...header} />
-      <HtmlContent html={content} />
+      <Styled.PostContainer size="max">
+        <ArticleHeader {...header} />
+      </Styled.PostContainer>
+      <Styled.PostContainer size="content">
+        <HtmlContent html={content} />
+      </Styled.PostContainer>
     </Styled.Wrapper>
   );
 };
