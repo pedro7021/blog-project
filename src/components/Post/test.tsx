@@ -12,12 +12,10 @@ describe('<Post />', () => {
     const { container } = renderTheme(<Post {...props} />);
 
     expect(
-      screen.getByRole('heading', { name: props.header.title }),
+      screen.getByRole('heading', { name: props.title }),
     ).toBeInTheDocument();
 
-    expect(
-      screen.getByRole('img', { name: props.header.title }),
-    ).toBeInTheDocument();
+    expect(screen.getByRole('img', { name: props.title })).toBeInTheDocument();
 
     expect(
       screen.getAllByText(
@@ -25,9 +23,7 @@ describe('<Post />', () => {
       )[0],
     ).toHaveStyle({ 'font-size': '2.4rem' });
 
-    expect(
-      screen.getByText(formatDate(props.header.articleMeta.createdAt)),
-    ).toBeInTheDocument();
+    expect(screen.getByText(formatDate(props.createdAt))).toBeInTheDocument();
 
     expect(container).toMatchSnapshot();
   });

@@ -7,24 +7,22 @@ export default {
     alternativeText: 'esse é o texto alternativo',
     url: 'https://res.cloudinary.com/dlizakp2a/image/upload/v1614699042/Origin_of_nature_by_Julian_Tomasini_dcfdd17cbe.jpg',
   },
-  articleMeta: {
-    createdAt: '2021-03-02T15:16:09.246+00:00',
-    author: {
-      id: '123456789',
-      slug: 'pedro-henrique',
-      displayName: 'pedro-henrique',
-    },
-    categories: [
-      {
-        id: 'asdslgyh65',
-        displayName: 'Tech',
-        slug: 'tech',
-      },
-      {
-        id: 'asdslgyh66',
-        displayName: 'JS',
-        slug: 'javascript',
-      },
-    ],
+  createdAt: '2021-03-02T15:16:09.246+00:00',
+  author: {
+    id: '123456789',
+    slug: 'pedro-henrique',
+    displayName: 'pedro-henrique',
   },
+  categories: [
+    {
+      id: 'asdslgyh65',
+      displayName: 'Tech',
+      slug: 'tech',
+    },
+    {
+      id: 'asdslgyh66',
+      displayName: 'JS',
+      slug: 'javascript',
+    },
+  ],
 };

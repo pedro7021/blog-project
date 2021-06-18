@@ -1,22 +1,29 @@
 import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
-import { ArticleHeader, ArticleHeaderProps } from '.';
-
+import { PostCard, PostCardProps } from '.';
 import mock from './mock';
-import { formatDate } from '../../utils/format-date';
 
-const props: ArticleHeaderProps = mock;
+const props: PostCardProps = mock;
 
-describe('<ArticleHeader />', () => {
-  it('should render heading, excerpt, cover img and meta', () => {
-    const { container } = renderTheme(<ArticleHeader {...props} />);
+describe('<PostCard />', () => {
+  it('should render', () => {
+    renderTheme(<PostCard {...props} />);
 
     expect(
       screen.getByRole('heading', { name: props.title }),
     ).toBeInTheDocument();
+
     expect(screen.getByRole('img', { name: props.title })).toBeInTheDocument();
+
     expect(screen.getByText(props.excerpt)).toBeInTheDocument();
-    expect(screen.getByText(formatDate(props.createdAt))).toBeInTheDocument();
+
+    expect(
+      screen.getAllByRole('link', { name: props.title })[0],
+    ).toHaveAttribute('href', `/post/${props.slug}`);
+  });
+  it('should match snapshot', () => {
+    const { container } = renderTheme(<PostCard {...props} />);
+
     expect(container).toMatchSnapshot();
   });
 });
