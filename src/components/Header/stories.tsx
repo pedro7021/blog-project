@@ -1,4 +1,4 @@
-import { Meta, Story } from '@storybook/react/types-6-0';
+import { Meta, Story } from '@storybook/react';
 import { Header, HeaderProps } from '.';
 import props from './mock';
 export default {
