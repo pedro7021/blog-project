@@ -29,7 +29,7 @@ describe('<Header />', () => {
     expect(
       screen.getByRole('img', { name: /Pedro de Carli/i }),
     ).toHaveAttribute('src', props.logo);
-    
+
     expect(screen.queryByRole(props.blogDescription)).not.toBeInTheDocument();
   });
 
