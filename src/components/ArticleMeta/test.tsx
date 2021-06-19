@@ -2,7 +2,7 @@ import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
 import { ArticleMeta, ArticleMetaProps } from '.';
 
-import mock from './mocks';
+import mock from './mock';
 
 const props: ArticleMetaProps = mock;
 

@@ -7,7 +7,7 @@ export default {
   args: {
     footerHtml: `<p>Feito com ❤ por Pedro de Carli</p>`,
   },
-} as Meta;
+} as Meta<FooterProps>;
 
 export const Template: Story<FooterProps> = (args) => {
   return (

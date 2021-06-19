@@ -9,7 +9,7 @@ export default {
     srcImg: 'assets/images/logo.svg',
     link: 'http://localhost',
   },
-} as Meta;
+} as Meta<LogoLinkProps>;
 
 export const ImageOnly: Story<LogoLinkProps> = (args) => {
   return (

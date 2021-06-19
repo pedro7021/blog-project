@@ -17,7 +17,7 @@ export default {
       default: 'light',
     },
   },
-} as Meta;
+} as Meta<MenuLinkProps>;
 
 export const Template: Story<MenuLinkProps> = (args) => {
   return (

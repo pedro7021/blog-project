@@ -7,7 +7,7 @@ export default {
   args: {
     html: mock,
   },
-} as Meta;
+} as Meta<HtmlContentProps>;
 
 export const Template: Story<HtmlContentProps> = (args) => {
   return (

@@ -1,3 +1,4 @@
+import { PostCardProps } from '.';
 export default {
   slug: 'vis-nobis-veritus-maluisset-id-nonumy-adversarium',
   title: 'Vis nobis veritus maluisset id, nonumy adversarium',
@@ -8,4 +9,4 @@ export default {
     alternativeText: '',
     url: 'https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg',
   },
-};
+} as PostCardProps;

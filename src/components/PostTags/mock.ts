@@ -1,3 +1,5 @@
+import { PostTagsProps } from '.';
+
 export default {
   tags: [
     {
@@ -11,4 +13,4 @@ export default {
       slug: 'use-state',
     },
   ],
-};
+} as PostTagsProps;

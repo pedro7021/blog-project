@@ -15,7 +15,7 @@ export default {
       default: 'dark',
     },
   },
-} as Meta;
+} as Meta<HeadingProps>;
 
 export const Light: Story<HeadingProps> = (args) => <Heading {...args} />;
 export const Dark: Story<HeadingProps> = (args) => <Heading {...args} />;
