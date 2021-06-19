@@ -1,6 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<ArticleHeader /> should render heading, excerpt, cover img and meta 1`] = `
+exports[
+  `<ArticleHeader /> should render heading, excerpt, cover img and meta 1`
+] = `
 .c2 {
   color: #000000;
   line-height: 1.2;
@@ -126,7 +128,6 @@ exports[`<ArticleHeader /> should render heading, excerpt, cover img and meta 1`
               JS
             </a>
           </span>
-           
         </span>
       </p>
     </div>
