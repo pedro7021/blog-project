@@ -4,6 +4,7 @@ import { StrapiImage } from '../../shared-typed/strapi-image';
 import { ArticleMeta, ArticleMetaProps } from '../ArticleMeta';
 
 export type ArticleHeaderProps = {
+  id: string;
   title: string;
   excerpt: string;
   cover: StrapiImage;

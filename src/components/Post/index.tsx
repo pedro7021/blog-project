@@ -14,11 +14,13 @@ export const Post = ({
   author,
   categories,
   content,
+  id,
 }: PostProps) => {
   return (
     <Styled.Wrapper>
       <Styled.PostContainer size="max">
         <ArticleHeader
+          id={id}
           title={title}
           excerpt={excerpt}
           cover={cover}
