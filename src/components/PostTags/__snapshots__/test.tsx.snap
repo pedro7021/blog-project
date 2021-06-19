@@ -9,6 +9,14 @@ exports[`<PostTags /> should match snapshot 1`] = `
   margin-left: 0.7rem;
 }
 
+.c0 span::after {
+  content: ',';
+}
+
+.c0 span:last-child::after {
+  content: '';
+}
+
 .c0 a {
   color: #dc143c;
   -webkit-text-decoration: none;

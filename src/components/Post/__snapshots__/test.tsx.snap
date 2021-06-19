@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[
-  `<Post /> should render header, excerpt, cover, metadata and post 1`
+  `<Post /> should render header, excerpt, cover, metadata,tags and post 1`
 ] = `
 .c3 {
   color: #000000;
@@ -167,6 +167,35 @@ exports[
   margin: 2.4rem;
 }
 
+.c9 {
+  margin: 2.4rem 0;
+}
+
+.c9 span {
+  margin-left: 0.7rem;
+}
+
+.c9 span::after {
+  content: ',';
+}
+
+.c9 span:last-child::after {
+  content: '';
+}
+
+.c9 a {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c9 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
 .c0 {
   width: 100%;
   margin: 0 auto;
@@ -196,18 +225,6 @@ exports[
     max-width: 50%;
     float: right;
     margin: 2.4rem;
-  }
-}
-
-@media (max-width:768px) {
-  .c0 {
-    padding: 0 calc(3.2rem / 2);
-  }
-}
-
-@media (max-width:768px) {
-  .c7 {
-    padding: 0 calc(3.2rem / 2);
   }
 }
 
@@ -717,6 +734,25 @@ exports[
         
   
       </div>
+      <p
+        class="c9"
+      >
+        tags:
+        <span>
+          <a
+            href="/tag/use-effect"
+          >
+            useEffect
+          </a>
+        </span>
+        <span>
+          <a
+            href="/tag/use-state"
+          >
+            useState
+          </a>
+        </span>
+      </p>
     </div>
   </article>
 </div>

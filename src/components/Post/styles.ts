@@ -12,8 +12,5 @@ export const PostContainer = styled.div<PostContainerProps>`
     margin: 0 auto;
     padding: 0 ${theme.spacings.large};
     max-width: ${theme.sizes[size]};
-    @media ${theme.media.lteMedium} {
-      padding: 0 calc(${theme.spacings.large} / 2);
-    }
   `}
 `;

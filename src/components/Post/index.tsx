@@ -1,9 +1,12 @@
+import { PostTag } from '../../shared-types/tag';
 import { ArticleHeader, ArticleHeaderProps } from '../ArticleHeader';
 import { HtmlContent } from '../HtmlContent';
+import { PostTags } from '../PostTags';
 import * as Styled from './styles';
 
 export type PostProps = {
   content: string;
+  tags: PostTag[];
 } & ArticleHeaderProps;
 
 export const Post = ({
@@ -15,6 +18,7 @@ export const Post = ({
   categories,
   content,
   id,
+  tags,
 }: PostProps) => {
   return (
     <Styled.Wrapper>
@@ -31,6 +35,7 @@ export const Post = ({
       </Styled.PostContainer>
       <Styled.PostContainer size="content">
         <HtmlContent html={content} />
+        <PostTags tags={tags} />
       </Styled.PostContainer>
     </Styled.Wrapper>
   );

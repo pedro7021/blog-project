@@ -1,6 +1,6 @@
 import * as Styled from './styles';
 import { Heading } from '../Heading/index';
-import { StrapiImage } from '../../shared-typed/strapi-image';
+import { StrapiImage } from '../../shared-types/strapi-image';
 import { ArticleMeta, ArticleMetaProps } from '../ArticleMeta';
 
 export type ArticleHeaderProps = {

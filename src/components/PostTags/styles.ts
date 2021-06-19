@@ -7,6 +7,12 @@ export const Wrapper = styled.p`
     span {
       margin-left: 0.7rem;
     }
+    span::after {
+      content: ',';
+    }
+    span:last-child::after {
+      content: '';
+    }
 
     a {
       color: ${theme.colors.secondary};

@@ -1,5 +1,5 @@
 import * as Styled from './styles';
-import { SettingsStrapi } from '../../shared-typed/settings-strapi';
+import { SettingsStrapi } from '../../shared-types/settings-strapi';
 import { Menu } from '../../components/Menu';
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
