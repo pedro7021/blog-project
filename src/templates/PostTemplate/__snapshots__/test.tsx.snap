@@ -15,50 +15,50 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   text-transform: none;
 }
 
-.c16 {
+.c18 {
   color: #000000;
   line-height: 1.2;
   font-size: 6.4rem;
   text-transform: none;
 }
 
-.c15 {
+.c17 {
   padding-bottom: 4.0rem;
   margin-bottom: 4.0rem;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c15 .c5 {
+.c17 .c5 {
   margin: 0;
   margin-bottom: 2.4rem;
 }
 
-.c17 {
+.c19 {
   margin: 2.4rem 0;
   font-size: 2.4rem;
 }
 
-.c18 {
+.c20 {
   max-width: 100%;
   display: block;
   margin-bottom: 2.4rem;
 }
 
-.c19 {
+.c21 {
   font-size: 1.6rem;
   color: #BBBBBB;
   font-style: italic;
 }
 
-.c19 .categories span::after {
+.c21 .categories span::after {
   content: ', ';
 }
 
-.c19 .categories span:last-child::after {
+.c21 .categories span:last-child::after {
   content: '';
 }
 
-.c19 a {
+.c21 a {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -66,22 +66,22 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   transition: all,300ms ease-in-out;
 }
 
-.c19 a:hover {
+.c21 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c21 {
+.c23 {
   font-size: 2.4rem - 0.4rem;
 }
 
-.c21 p {
+.c23 p {
   margin: 2.4rem 0;
 }
 
-.c21 a,
-.c21 a:visited,
-.c21 a:link {
+.c23 a,
+.c23 a:visited,
+.c23 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -89,12 +89,12 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c21 a:hover {
+.c23 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c21 code {
+.c23 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -103,7 +103,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   margin: 0.2rem;
 }
 
-.c21 pre {
+.c23 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -113,63 +113,63 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   overflow-x: auto;
 }
 
-.c21 pre code {
+.c23 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c21 img {
+.c23 img {
   max-width: 100%;
 }
 
-.c21 .image {
+.c23 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c21 .image figcaption {
+.c23 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3;
 }
 
-.c21 .image-style-side {
+.c23 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem 0;
 }
 
-.c21 hr {
+.c23 hr {
   border: none;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c21 ul,
-.c21 ol {
+.c23 ul,
+.c23 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c21 .table {
+.c23 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c21 table {
+.c23 table {
   width: 100%;
   border-collapse: collapse;
   margin: 2.4rem 0;
 }
 
-.c21 table td,
-.c21 table th {
+.c23 table td,
+.c23 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c21 blockquote {
+.c23 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #BBBBBB;
   -webkit-filter: brightness(80%);
@@ -179,23 +179,23 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   margin: 2.4rem;
 }
 
-.c22 {
+.c24 {
   margin: 2.4rem 0;
 }
 
-.c22 span {
+.c24 span {
   margin-left: 0.7rem;
 }
 
-.c22 span::after {
+.c24 span::after {
   content: ',';
 }
 
-.c22 span:last-child::after {
+.c24 span:last-child::after {
   content: '';
 }
 
-.c22 a {
+.c24 a {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -203,19 +203,19 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c22 a:hover {
+.c24 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c14 {
+.c16 {
   width: 100%;
   margin: 0 auto;
   padding: 0 3.2rem;
   max-width: 96rem;
 }
 
-.c20 {
+.c22 {
   width: 100%;
   margin: 0 auto;
   padding: 0 3.2rem;
@@ -228,13 +228,37 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 .c13 {
+  margin: 0 auto;
+  margin-bottom: 4.0rem;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c14 {
+  padding: 0.5rem 1.6rem;
+}
+
+.c15 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c23 {
+.c25 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -377,18 +401,18 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   max-width: 48rem;
 }
 
-.c24 {
+.c26 {
   text-align: center;
   border-top: 0.1rem solid #DDDDDD;
 }
 
-.c24 a {
+.c26 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c25 {
+.c27 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -412,17 +436,17 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 @media (max-width:768px) {
-  .c16 {
+  .c18 {
     font-size: 4.0rem;
   }
 }
 
 @media (max-width:768px) {
-  .c21 {
+  .c23 {
     font-size: 1.6rem;
   }
 
-  .c21 .image-style-side {
+  .c23 .image-style-side {
     max-width: 50%;
     float: right;
     margin: 2.4rem;
@@ -565,36 +589,43 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
           </p>
         </div>
       </header>
+      <div
+        class="c13"
+      >
+        <input
+          class="c14"
+        />
+      </div>
     </div>
     <div
-      class="c13"
+      class="c15"
     >
       <article
         class=""
       >
         <div
-          class="c14"
+          class="c16"
         >
           <header
-            class="c15"
+            class="c17"
           >
             <h1
-              class="c5 c16"
+              class="c5 c18"
             >
               Vis nobis veritus maluisset id, nonumy adversarium
             </h1>
             <p
-              class="c17"
+              class="c19"
             >
               Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.
             </p>
             <img
               alt="Vis nobis veritus maluisset id, nonumy adversarium"
-              class="c18"
+              class="c20"
               src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
             />
             <div
-              class="c19"
+              class="c21"
             >
               <p>
                 <span>
@@ -643,10 +674,10 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
           </header>
         </div>
         <div
-          class="c20"
+          class="c22"
         >
           <div
-            class="c21"
+            class="c23"
           >
             <p>
               Nostro 
@@ -1041,7 +1072,7 @@ const useMyHook = (cb, delay = 1000) =&gt; {
             </p>
           </div>
           <p
-            class="c22"
+            class="c24"
           >
             tags:
             <span>
@@ -1063,13 +1094,13 @@ const useMyHook = (cb, delay = 1000) =&gt; {
       </article>
     </div>
     <div
-      class="c23"
+      class="c25"
     >
       <footer
-        class="c24"
+        class="c26"
       >
         <div
-          class="c21"
+          class="c23"
         >
           <p>
             O texto da footer
@@ -1079,7 +1110,7 @@ const useMyHook = (cb, delay = 1000) =&gt; {
     </div>
     <a
       aria-label="Go to top"
-      class="c25"
+      class="c27"
       href="#"
       title="Go to top"
     >

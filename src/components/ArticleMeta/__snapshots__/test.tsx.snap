@@ -114,6 +114,17 @@ exports[
     class="c0"
   >
     <p>
+      <span>
+        Por 
+      </span>
+      <span>
+        Autor Anônimo 
+      </span>
+      <span
+        class="separator"
+      >
+         | 
+      </span>
       <time
         datetime="2021-03-02T15:16:09.246+00:00"
       >

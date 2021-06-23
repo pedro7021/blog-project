@@ -22,6 +22,9 @@ export const BaseTemplate = ({
           blogDescription={blogDescription}
           logo={logo.url}
         />
+        <Styled.SearchContainer>
+          <Styled.SearchInput />
+        </Styled.SearchContainer>
       </Styled.HeaderContainer>
       <Styled.ContentContainer>{children}</Styled.ContentContainer>
       <Styled.FooterContainer>

@@ -18,17 +18,17 @@ export const ArticleMeta = ({
   return (
     <Styled.Wrapper>
       <p>
-        {typeof author !== 'undefined' && (
-          <>
-            <span>Por </span>
-            <Link href={`/author/${author.slug}`}>
-              <a>{author.displayName}</a>
-            </Link>
-            <span className="separator"> | </span>
-          </>
+        <span>Por </span>
+        {author ? (
+          <Link href={`/author/${author.slug}`}>
+            <a>{author.displayName}</a>
+          </Link>
+        ) : (
+          <span>Autor Anônimo </span>
         )}
+        <span className="separator"> | </span>
         <time dateTime={createdAt}>{formatDate(createdAt)}</time>
-        {categories.length > 0 && (
+        {!!categories && categories.length > 0 && (
           <>
             <span className="separator"> | </span>
             <span className="categories">

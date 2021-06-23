@@ -1,6 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostsTemplate /> should match snapshot 1`] = `
+.c21 {
+  padding: 0 3.2rem;
+  margin: 3.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c22 {
+  background: #000000;
+  color: #FFFFFF;
+  border: none;
+  padding: 1.6rem 3.2rem;
+  cursor: pointer;
+}
+
+.c22:disabled {
+  background: #BBBBBB;
+}
+
 .c6 {
   color: #000000;
   line-height: 1.2;
@@ -15,11 +40,11 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   text-transform: none;
 }
 
-.c16 .c5 {
+.c18 .c5 {
   margin: 0.8rem 0;
 }
 
-.c16 a {
+.c18 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -27,29 +52,29 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c16:hover a {
+.c18:hover a {
   color: #dc143c;
 }
 
-.c16:hover img {
+.c18:hover img {
   opacity: 0.8;
 }
 
-.c17 {
+.c19 {
   max-width: 100%;
   -webkit-transition: opacity 300ms ease-in-out;
   transition: opacity 300ms ease-in-out;
 }
 
-.c18 {
+.c20 {
   max-width: 100%;
 }
 
-.c14 {
+.c16 {
   width: 100%;
 }
 
-.c15 {
+.c17 {
   max-width: 120rem;
   margin: 0 auto;
   display: grid;
@@ -64,13 +89,37 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 .c13 {
+  margin: 0 auto;
+  margin-bottom: 4.0rem;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c14 {
+  padding: 0.5rem 1.6rem;
+}
+
+.c15 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c19 {
+.c23 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -213,28 +262,28 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   max-width: 48rem;
 }
 
-.c20 {
+.c24 {
   text-align: center;
   border-top: 0.1rem solid #DDDDDD;
 }
 
-.c20 a {
+.c24 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c21 {
+.c25 {
   font-size: 2.4rem - 0.4rem;
 }
 
-.c21 p {
+.c25 p {
   margin: 2.4rem 0;
 }
 
-.c21 a,
-.c21 a:visited,
-.c21 a:link {
+.c25 a,
+.c25 a:visited,
+.c25 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -242,12 +291,12 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c21 a:hover {
+.c25 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c21 code {
+.c25 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -256,7 +305,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   margin: 0.2rem;
 }
 
-.c21 pre {
+.c25 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -266,63 +315,63 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   overflow-x: auto;
 }
 
-.c21 pre code {
+.c25 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c21 img {
+.c25 img {
   max-width: 100%;
 }
 
-.c21 .image {
+.c25 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c21 .image figcaption {
+.c25 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3;
 }
 
-.c21 .image-style-side {
+.c25 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem 0;
 }
 
-.c21 hr {
+.c25 hr {
   border: none;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c21 ul,
-.c21 ol {
+.c25 ul,
+.c25 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c21 .table {
+.c25 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c21 table {
+.c25 table {
   width: 100%;
   border-collapse: collapse;
   margin: 2.4rem 0;
 }
 
-.c21 table td,
-.c21 table th {
+.c25 table td,
+.c25 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c21 blockquote {
+.c25 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #BBBBBB;
   -webkit-filter: brightness(80%);
@@ -332,7 +381,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   margin: 2.4rem;
 }
 
-.c22 {
+.c26 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -356,7 +405,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 @media (max-width:360px) {
-  .c15 {
+  .c17 {
     grid-template-columns: 1fr;
   }
 }
@@ -396,11 +445,11 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 @media (max-width:768px) {
-  .c21 {
+  .c25 {
     font-size: 1.6rem;
   }
 
-  .c21 .image-style-side {
+  .c25 .image-style-side {
     max-width: 50%;
     float: right;
     margin: 2.4rem;
@@ -509,25 +558,32 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
           </p>
         </div>
       </header>
+      <div
+        class="c13"
+      >
+        <input
+          class="c14"
+        />
+      </div>
     </div>
     <div
-      class="c13"
+      class="c15"
     >
       <div
-        class="c14"
+        class="c16"
       >
         <div
-          class="c15"
+          class="c17"
         >
           <div
-            class="c16"
+            class="c18"
           >
             <a
               href="/post/vis-nobis-veritus-maluisset-id-nonumy-adversarium"
             >
               <img
                 alt="Vis nobis veritus maluisset id, nonumy adversarium"
-                class="c17"
+                class="c19"
                 src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
               />
             </a>
@@ -541,20 +597,20 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
               </a>
             </h2>
             <p
-              class="c18"
+              class="c20"
             >
               Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.
             </p>
           </div>
           <div
-            class="c16"
+            class="c18"
           >
             <a
               href="/post/sea-array-destructuring-dicat-fabulas-consetetur"
             >
               <img
                 alt="Sea Array Destructuring dicat fabulas consetetur "
-                class="c17"
+                class="c19"
                 src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614699042/Origin_of_nature_by_Julian_Tomasini_dcfdd17cbe.jpg"
               />
             </a>
@@ -568,20 +624,20 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
               </a>
             </h2>
             <p
-              class="c18"
+              class="c20"
             >
               Quod oblique mei ne, cetero delicatissimi sea cu, cu est harum dicit verterem. Tota forensibus ut usu, luptatum dignissim persecuti vel ex. Mea nostrud instructior cu, et referrentur theophrastus eum. Pro in iuvaret senserit.
             </p>
           </div>
           <div
-            class="c16"
+            class="c18"
           >
             <a
               href="/post/quod-oblique-mei-ne-cetero-delicatissimi-sea"
             >
               <img
                 alt="Quod oblique mei ne, cetero delicatissimi sea"
-                class="c17"
+                class="c19"
                 src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614699042/Origin_of_nature_by_Julian_Tomasini_dcfdd17cbe.jpg"
               />
             </a>
@@ -595,22 +651,31 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
               </a>
             </h2>
             <p
-              class="c18"
+              class="c20"
             >
               Et sed legere rationibus, vitae evertitur ad eam. Eu amet vero officiis vis. Ad nullam pericula neglegentur sit, vix ei regione legendos argumentum. Mei an quas convenire, nobis dicunt mei ut. 
             </p>
           </div>
         </div>
       </div>
+      <div
+        class="c21"
+      >
+        <button
+          class="c22"
+        >
+          Carregar Mais
+        </button>
+      </div>
     </div>
     <div
-      class="c19"
+      class="c23"
     >
       <footer
-        class="c20"
+        class="c24"
       >
         <div
-          class="c21"
+          class="c25"
         >
           <p>
             O texto da footer
@@ -620,7 +685,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
     </div>
     <a
       aria-label="Go to top"
-      class="c22"
+      class="c26"
       href="#"
       title="Go to top"
     >
@@ -646,6 +711,31 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 `;
 
 exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
+.c19 {
+  padding: 0 3.2rem;
+  margin: 3.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c20 {
+  background: #000000;
+  color: #FFFFFF;
+  border: none;
+  padding: 1.6rem 3.2rem;
+  cursor: pointer;
+}
+
+.c20:disabled {
+  background: #BBBBBB;
+}
+
 .c6 {
   color: #000000;
   line-height: 1.2;
@@ -660,17 +750,17 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   text-transform: none;
 }
 
-.c14 {
+.c16 {
   width: 100%;
 }
 
-.c15 {
+.c17 {
   padding: 3.2rem;
   text-align: center;
   font-size: 1.6rem;
 }
 
-.c16 {
+.c18 {
   max-width: 120rem;
   margin: 0 auto;
   display: grid;
@@ -685,13 +775,37 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 }
 
 .c13 {
+  margin: 0 auto;
+  margin-bottom: 4.0rem;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c14 {
+  padding: 0.5rem 1.6rem;
+}
+
+.c15 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c17 {
+.c21 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -834,28 +948,28 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   max-width: 48rem;
 }
 
-.c18 {
+.c22 {
   text-align: center;
   border-top: 0.1rem solid #DDDDDD;
 }
 
-.c18 a {
+.c22 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c19 {
+.c23 {
   font-size: 2.4rem - 0.4rem;
 }
 
-.c19 p {
+.c23 p {
   margin: 2.4rem 0;
 }
 
-.c19 a,
-.c19 a:visited,
-.c19 a:link {
+.c23 a,
+.c23 a:visited,
+.c23 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -863,12 +977,12 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c19 a:hover {
+.c23 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c19 code {
+.c23 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -877,7 +991,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   margin: 0.2rem;
 }
 
-.c19 pre {
+.c23 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -887,63 +1001,63 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   overflow-x: auto;
 }
 
-.c19 pre code {
+.c23 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c19 img {
+.c23 img {
   max-width: 100%;
 }
 
-.c19 .image {
+.c23 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c19 .image figcaption {
+.c23 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3;
 }
 
-.c19 .image-style-side {
+.c23 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem 0;
 }
 
-.c19 hr {
+.c23 hr {
   border: none;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c19 ul,
-.c19 ol {
+.c23 ul,
+.c23 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c19 .table {
+.c23 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c19 table {
+.c23 table {
   width: 100%;
   border-collapse: collapse;
   margin: 2.4rem 0;
 }
 
-.c19 table td,
-.c19 table th {
+.c23 table td,
+.c23 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c19 blockquote {
+.c23 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #BBBBBB;
   -webkit-filter: brightness(80%);
@@ -953,7 +1067,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   margin: 2.4rem;
 }
 
-.c20 {
+.c24 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -977,7 +1091,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 }
 
 @media (max-width:360px) {
-  .c16 {
+  .c18 {
     grid-template-columns: 1fr;
   }
 }
@@ -1017,11 +1131,11 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 }
 
 @media (max-width:768px) {
-  .c19 {
+  .c23 {
     font-size: 1.6rem;
   }
 
-  .c19 .image-style-side {
+  .c23 .image-style-side {
     max-width: 50%;
     float: right;
     margin: 2.4rem;
@@ -1130,31 +1244,47 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
           </p>
         </div>
       </header>
-    </div>
-    <div
-      class="c13"
-    >
       <div
-        class="c14"
+        class="c13"
       >
-        <p
-          class="c15"
-        >
-          Nenhum Post encontrado aqui =(
-        </p>
-        <div
-          class="c16"
+        <input
+          class="c14"
         />
       </div>
     </div>
     <div
-      class="c17"
+      class="c15"
+    >
+      <div
+        class="c16"
+      >
+        <p
+          class="c17"
+        >
+          Nenhum Post encontrado aqui =(
+        </p>
+        <div
+          class="c18"
+        />
+      </div>
+      <div
+        class="c19"
+      >
+        <button
+          class="c20"
+        >
+          Carregar Mais
+        </button>
+      </div>
+    </div>
+    <div
+      class="c21"
     >
       <footer
-        class="c18"
+        class="c22"
       >
         <div
-          class="c19"
+          class="c23"
         >
           <p>
             O texto da footer
@@ -1164,7 +1294,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
     </div>
     <a
       aria-label="Go to top"
-      class="c20"
+      class="c24"
       href="#"
       title="Go to top"
     >
