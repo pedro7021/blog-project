@@ -23,7 +23,13 @@ export const BaseTemplate = ({
           logo={logo.url}
         />
         <Styled.SearchContainer>
-          <Styled.SearchInput />
+          <form action="/search/" method="GET">
+            <Styled.SearchInput
+              type="search"
+              placeholder="Encontre posts"
+              name="q"
+            />
+          </form>
         </Styled.SearchContainer>
       </Styled.HeaderContainer>
       <Styled.ContentContainer>{children}</Styled.ContentContainer>

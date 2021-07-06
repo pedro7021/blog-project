@@ -17,4 +17,11 @@ describe('<PostsTemplate />', () => {
 
     expect(container).toMatchSnapshot();
   });
+  it('should match snapshot without variables', () => {
+    const { container } = renderTheme(
+      <PostsTemplate {...props} variables={undefined} />,
+    );
+
+    expect(container).toMatchSnapshot();
+  });
 });

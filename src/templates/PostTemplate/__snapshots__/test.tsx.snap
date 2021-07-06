@@ -592,9 +592,17 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
       <div
         class="c13"
       >
-        <input
-          class="c14"
-        />
+        <form
+          action="/search/"
+          method="GET"
+        >
+          <input
+            class="c14"
+            name="q"
+            placeholder="Encontre posts"
+            type="search"
+          />
+        </form>
       </div>
     </div>
     <div
